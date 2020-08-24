@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OpenDRIVE>
+  <header revMajor="1" revMinor="4" name="" version="1.00" date="2019-04-16T18:26:28" north="0.18683139350354114" west="-1000.0001055258463" east="1000.0040454598861" south="-10.599612149512913" vendor="">
+    <geoReference originLat="0" originLong="0" originAlt="0" originHdg="0" />
+    <userData code="RnkMajorVersion" value="1" />
+    <userData code="RnkMinorVersion" value="1" />
+    <userData code="localEnuExt" value="6378137,0,0;0,1,0;0,0,1;1,0,0" />
+  </header>
+  <road id="40" junction="-1" length="2000.0002279697242" name="Road (40)">
+    <type s="0" type="unknown">
+      <speed max="undefined" unit="km/h" />
+    </type>
+    <planView>
+      <geometry hdg="6.2831752570995949" length="752.10940456865524" s="0" x="-1000" y="0.186295538682774">
+        <paramPoly3 aU="0" aV="0" bU="752.10940456678577" bV="-1.0984095577537545E-13" cU="-1.0819826457009185E-07" cV="0.030088646121162143" dU="6.4654159359633923E-08" dV="-0.021995454303442675" pRange="normalized" />
+      </geometry>
+      <geometry hdg="6.28316753339526" length="75.120462440418009" s="752.10940456865524" x="-247.890595433404" y="0.18682997082222735">
+        <paramPoly3 aU="0" aV="0" bU="75.120456935360181" bV="1.0408340855860843E-14" cU="-0.00013313605502673909" cV="-0.20001285471306662" dU="6.6737128264549028E-05" dV="0.10013377265525318" pRange="normalized" />
+      </geometry>
+      <geometry hdg="6.2818413377792073" length="110.58280021912591" s="827.22986700907325" x="-172.77020668406544" y="0.085615715160365258">
+        <paramPoly3 aU="0" aV="0" bU="110.58280020896424" bV="7.1095906939433462E-14" cU="1.217542404674532E-07" cV="-0.0048420638684027462" dU="-1.2181615716144734E-07" dV="0.0049590966445987178" pRange="normalized" />
+      </geometry>
+      <geometry hdg="6.281888299532655" length="49.387661542818691" s="937.81266722819919" x="-62.187506188158395" y="-0.06288710711720305">
+        <paramPoly3 aU="0" aV="0" bU="49.387654308840212" bV="-2.581268532253489E-15" cU="-0.00017579753519925134" cV="0.18635806987213488" dU="8.8262414827511293E-05" dV="-0.093372582479173669" pRange="normalized" />
+      </geometry>
+      <geometry hdg="0.00057792340325763544" length="373.8356635144" s="987.20032877101789" x="-12.799860352172832" y="-0.03395773174503109">
+        <paramPoly3 aU="0" aV="0" bU="373.835655550885" bV="-6.9388939039072284E-18" cU="4.929559634092584E-05" cV="-0.054844110456246764" dU="-6.4717790394297481E-05" dV="-0.052537135269161289" pRange="normalized" />
+      </geometry>
+      <geometry hdg="6.2830482114413382" length="638.96423568430635" s="1361.0359922854179" x="361.0357794049479" y="0.074709393837625676">
+        <paramPoly3 aU="0" aV="0" bU="638.96422207300338" bV="1.0337911082736184E-13" cU="0.00015876184693297546" cV="-0.32445141403716038" dU="-0.00016028644870402786" dV="0.36859132654941862" pRange="normalized" />
+      </geometry>
+    </planView>
+    <elevationProfile>
+      <elevation a="0.0010138209909200668" b="-2.5345451898412276E-07" c="-3.801817330952451E-10" d="1.2672722923810381E-13" s="0" />
+    </elevationProfile>
+    <lateralProfile>
+      <superelevation a="0" b="0" c="0" d="0" s="0" />
+      <crossfall a="0" b="0" c="0" d="0" s="0" side="left" />
+      <crossfall a="7.6918279006671567E-12" b="-2.7007979996204384E-17" c="-4.0511965158538025E-20" d="1.3503986774256313E-23" s="0" side="right" />
+    </lateralProfile>
+    <lanes>
+      <laneSection s="0" singleSide="false">
+        <center>
+          <lane id="0" level="false" type="none">
+            <roadMark color="white" height="0" laneChange="both" material="" type="solid" weight="standard" width="0.13" sOffset="0" />
+            <roadMark color="white" height="0" laneChange="both" material="" type="solid" weight="standard" width="0.13" sOffset="74.250000203954087" />
+            <roadMark color="white" height="0" laneChange="both" material="" type="solid" weight="standard" width="0.13" sOffset="259.95326326754281" />
+            <roadMark color="white" height="0" laneChange="both" material="" type="solid" weight="standard" width="0.13" sOffset="362.4884985728587" />
+          </lane>
+        </center>
+        <right>
+          <lane id="-1" level="false" type="driving">
+            <link>
+              <successor id="-1" />
+            </link>
+            <width a="3.5000019843795607" b="-1.6735138542708329E-09" c="-6.6752809266316836E-12" d="5.9169414144835935E-15" sOffset="0" />
+            <roadMark color="white" height="0" laneChange="both" material="" type="broken" weight="standard" width="0.13" sOffset="0" />
+            <height inner="0" outer="0" sOffset="0" />
+            <height inner="0" outer="0" sOffset="752.10940457618619" />
+          </lane>
+          <lane id="-2" level="false" type="driving">
+            <link>
+              <successor id="-2" />
+            </link>
+            <width a="3.499998997339556" b="-1.4557795325156546E-11" c="-5.8067861182953769E-14" d="5.1471112770483756E-17" sOffset="0" />
+            <roadMark color="white" height="0" laneChange="both" material="" type="broken" weight="standard" width="0.13" sOffset="0" />
+            <height inner="0" outer="0" sOffset="0" />
+            <height inner="0" outer="0" sOffset="752.10940457618619" />
+          </lane>
+          <lane id="-3" level="false" type="driving">
+            <link>
+              <successor id="-3" />
+            </link>
+            <width a="3.4999996659101598" b="-6.7450130690202587E-11" c="-2.6904382638936987E-13" d="2.3847933641035516E-16" sOffset="0" />
+            <roadMark color="white" height="0" laneChange="both" material="" type="solid" weight="standard" width="0.13" sOffset="0" />
+            <height inner="0" outer="0" sOffset="0" />
+            <height inner="0" outer="0" sOffset="752.10940457618619" />
+          </lane>
+        </right>
+      </laneSection>
+      <laneSection s="752.1094045761871" singleSide="false">
+        <center>
+          <lane id="0" level="false" type="none" />
+        </center>
+        <right>
+          <lane id="-1" level="false" type="driving">
+            <link>
+              <predecessor id="-1" />
+              <successor id="-1" />
+            </link>
+            <width a="3.5000072910740276" b="-1.8822972991077455E-08" c="-3.0408145795410926E-10" d="1.0916392561794014E-12" sOffset="0" />
+            <roadMark color="white" height="0" laneChange="both" material="" type="broken" weight="standard" width="0.13" sOffset="0" />
+            <height inner="0" outer="0" sOffset="-9.0949470177292824E-13" />
+            <height inner="0" outer="0" sOffset="185.7032630635855" />
+          </lane>
+          <lane id="-2" level="false" type="driving">
+            <link>
+              <predecessor id="-2" />
+              <successor id="-2" />
+            </link>
+            <width a="3.4999964532207071" b="4.7988761052811866E-09" c="7.7524907599149461E-11" d="-2.7831105870279318E-13" sOffset="0" />
+            <roadMark color="white" height="0" laneChange="both" material="" type="broken" weight="standard" width="0.13" sOffset="0" />
+            <height inner="0" outer="0" sOffset="-9.0949470177292824E-13" />
+            <height inner="0" outer="0" sOffset="185.7032630635855" />
+          </lane>
+          <lane id="-3" level="false" type="driving">
+            <link>
+              <predecessor id="-3" />
+              <successor id="-3" />
+            </link>
+            <width a="3.4999988169930587" b="1.6031177442577553E-09" c="2.5898054514718516E-11" d="-9.2972893526746607E-14" sOffset="0" />
+            <roadMark color="white" height="0" laneChange="both" material="" type="solid" weight="standard" width="0.13" sOffset="0" />
+            <height inner="0" outer="0" sOffset="-9.0949470177292824E-13" />
+            <height inner="0" outer="0" sOffset="185.7032630635855" />
+          </lane>
+        </right>
+      </laneSection>
+      <laneSection s="937.81266763977578" singleSide="false">
+        <center>
+          <lane id="0" level="false" type="none" />
+        </center>
+        <right>
+          <lane id="-1" level="false" type="driving">
+            <link>
+              <predecessor id="-1" />
+              <successor id="-1" />
+            </link>
+            <width a="3.5003150469410156" b="9.6480838185360364E-05" c="2.8228590268916821E-06" d="-1.835374944353703E-08" sOffset="0" />
+            <roadMark color="white" height="0" laneChange="both" material="" type="broken" weight="standard" width="0.13" sOffset="0" />
+            <height inner="0" outer="0" sOffset="-3.1832314562052488E-12" />
+            <height inner="0" outer="0" sOffset="102.53523530531152" />
+          </lane>
+          <lane id="-2" level="false" type="driving">
+            <link>
+              <predecessor id="-2" />
+              <successor id="-2" />
+            </link>
+            <width a="3.4998427260483216" b="-4.3958281731147792E-05" c="-1.2861417326519634E-06" d="8.3622748727777745E-09" sOffset="0" />
+            <roadMark color="white" height="0" laneChange="both" material="" type="broken" weight="standard" width="0.13" sOffset="0" />
+            <height inner="0" outer="0" sOffset="-3.1832314562052488E-12" />
+            <height inner="0" outer="0" sOffset="102.53523530531152" />
+          </lane>
+          <lane id="-3" level="false" type="driving">
+            <link>
+              <predecessor id="-3" />
+              <successor id="-2" />
+            </link>
+            <width a="3.502203422078078" b="2.9996765209159463E-05" c="-9.9095081231457618E-07" d="1.6293465326064789E-08" sOffset="0" />
+            <width a="3.5071828851027984" b="0.0083927930977381379" c="0.0040693777863053575" d="-0.00055892349680828994" sOffset="82.999999999998977" />
+            <width a="3.5357745944690286" b="0.017963222281259794" c="0.0156454824912452" d="-0.0069058993460864859" sOffset="84.999999999998863" />
+            <width a="3.5790357742278376" b="-0.0046512798135931455" c="-0.061321209763966156" d="0.013408750191564511" sOffset="86.999999999998863" />
+            <width a="3.5264720348418424" b="-0.087067448766832811" c="-0.0470230081086922" d="0.012519298727855066" sOffset="87.999999999998863" />
+            <width a="3.404900876694172" b="-0.1435555688006529" c="0.10897288291072371" d="-0.13095729356370489" sOffset="88.999999999998863" />
+            <width a="3.2393608972405366" b="-0.15924084183516185" c="-0.0663160627360273" d="0.014040318340927505" sOffset="89.999999999998863" />
+            <width a="2.7679375093535246" b="-0.2560212726881399" c="-0.0053686872081734061" d="-0.0023930510820717732" sOffset="91.999999999998863" />
+            <width a="2.215275806487977" b="-0.3062126345056948" c="-0.038760193243898455" d="0.011909650853718978" sOffset="93.999999999998863" />
+            <width a="1.5430869713307453" b="-0.31833759723666089" c="-0.028158887322339843" d="0.01851864874665865" sOffset="95.999999999998863" />
+            <width a="0.94192541754133341" b="-0.41749872313223291" c="0.48895246033272555" d="-0.30528962967554651" sOffset="97.999999999998863" />
+            <width a="0.70808952506627953" b="-0.17773134574673088" c="-0.10912487571208168" d="0.039359087978745926" sOffset="98.999999999998863" />
+            <width a="0.2310000345544907" b="-0.28384358570029633" c="0.33433162788224458" d="-0.14108572307075207" sOffset="100.99999999999864" />
+            <width a="0.14040235366568687" b="-0.071814207258554225" c="0.3881001614670988" d="-0.38492503148061491" sOffset="101.99999999999864" />
+            <roadMark color="white" height="0" laneChange="both" material="" type="solid" weight="standard" width="0.13" sOffset="0" />
+            <height inner="0" outer="0" sOffset="-3.1832314562052488E-12" />
+            <height inner="0" outer="0" sOffset="102.53523530531152" />
+          </lane>
+        </right>
+      </laneSection>
+      <laneSection s="1040.3479029450918" singleSide="false">
+        <center>
+          <lane id="0" level="false" type="none" />
+        </center>
+        <right>
+          <lane id="-1" level="false" type="driving">
+            <link>
+              <predecessor id="-1" />
+            </link>
+            <width a="3.5210156952569251" b="-0.00018887164145002709" c="-1.0321508533717887E-05" d="1.2522688525767938E-07" sOffset="0" />
+            <width a="3.5002398146974225" b="-1.1417864516444146E-05" c="2.5601434831185879E-08" d="-1.4189546302869126E-11" sOffset="54.999999999999091" />
+            <roadMark color="white" height="0" laneChange="both" material="" type="broken" weight="standard" width="0.13" sOffset="0" />
+            <height inner="0" outer="0" sOffset="-4.5474735088646412E-12" />
+            <height inner="0" outer="0" sOffset="959.65233578774314" />
+          </lane>
+          <lane id="-2" level="false" type="driving">
+            <link>
+              <predecessor id="-2" />
+            </link>
+            <width a="3.4906558442390967" b="4.7758702317247853E-06" c="1.493000137743976E-08" d="-1.0371812666361233E-11" sOffset="0" />
+            <roadMark color="white" height="0" laneChange="both" material="" type="solid" weight="standard" width="0.13" sOffset="0" />
+            <height inner="0" outer="0" sOffset="-4.5474735088646412E-12" />
+            <height inner="0" outer="0" sOffset="959.65233578774314" />
+          </lane>
+        </right>
+      </laneSection>
+    </lanes>
+    <signals>
+      <signal s="180.02138549743506" t="-1.7500002708279796" id="20" name="Straight Arrow Paint" dynamic="no" orientation="none" zOffset="0.010000001088399929" country="CHN" type="Graphics" subtype="StraightAheadArrow" value="0" unit="m" height="0" width="3" length="3" text="" hOffset="1.2597359333873562E-05" pitch="3.2884528640570365E-14" roll="-1.8949628521017898E-09">
+        <userData code="_template_attr_AttachedPoleObjectId" value="-1" />
+      </signal>
+      <signal s="180.02138549742654" t="-5.2500000493758021" id="21" name="Straight Arrow Paint" dynamic="no" orientation="none" zOffset="0.009999998769499847" country="CHN" type="Graphics" subtype="StraightAheadArrow" value="0" unit="m" height="0" width="3" length="3" text="" hOffset="1.2597359346751431E-05" pitch="-8.08023033756573E-14" roll="-1.8949624065751853E-09">
+        <userData code="_template_attr_AttachedPoleObjectId" value="-1" />
+      </signal>
+      <signal s="180.02138549741639" t="-8.7499993688038558" id="22" name="Straight Arrow Paint" dynamic="no" orientation="none" zOffset="0.0100000001759641" country="CHN" type="Graphics" subtype="StraightAheadArrow" value="0" unit="m" height="0" width="3" length="3" text="" hOffset="1.2597359345862926E-05" pitch="3.2884534263303341E-14" roll="-1.8949624097774016E-09">
+        <userData code="_template_attr_AttachedPoleObjectId" value="-1" />
+      </signal>
+      <signal s="792.33096739898667" t="-1.7500009372870788" id="23" name="Straight Arrow Paint" dynamic="no" orientation="none" zOffset="0.0099999986549360945" country="CHN" type="Graphics" subtype="StraightAheadArrow" value="0" unit="m" height="0" width="3" length="3" text="" hOffset="0.0003740889632513943" pitch="4.6187716181861494E-13" roll="-6.9202213427992968E-08">
+        <userData code="_template_attr_AttachedPoleObjectId" value="-1" />
+      </signal>
+      <signal s="792.33096739892551" t="-5.25000099475554" id="24" name="Straight Arrow Paint" dynamic="no" orientation="none" zOffset="0.0099999992317246437" country="CHN" type="Graphics" subtype="StraightAheadArrow" value="0" unit="m" height="0" width="3" length="3" text="" hOffset="0.00037408896324594916" pitch="3.7660912715976807E-13" roll="-6.920221125656731E-08">
+        <userData code="_template_attr_AttachedPoleObjectId" value="-1" />
+      </signal>
+      <signal s="792.330967398864" t="-8.7499998207078118" id="25" name="Straight Arrow Paint" dynamic="no" orientation="none" zOffset="0.0099999979459080186" country="CHN" type="Graphics" subtype="StraightAheadArrow" value="0" unit="m" height="0" width="3" length="3" text="" hOffset="0.00037408896324814321" pitch="4.0502961720784642E-13" roll="-6.9202210461321361E-08">
+        <userData code="_template_attr_AttachedPoleObjectId" value="-1" />
+      </signal>
+      <signal s="1477.8489122071171" t="-1.7512967942620781" id="26" name="Straight Arrow Paint" dynamic="no" orientation="none" zOffset="0.010000001544620777" country="CHN" type="Graphics" subtype="StraightAheadArrow" value="0" unit="m" height="0" width="3" length="3" text="" hOffset="0.00084284005855971077" pitch="-3.8709227966995177E-15" roll="-3.2636165636863306E-10">
+        <userData code="_template_attr_AttachedPoleObjectId" value="-1" />
+      </signal>
+      <signal s="1477.8489122071164" t="-5.2495679127271373" id="27" name="Straight Arrow Paint" dynamic="no" orientation="none" zOffset="0.010000002581129135" country="CHN" type="Graphics" subtype="StraightAheadArrow" value="0" unit="m" height="0" width="3" length="3" text="" hOffset="0.00084284005855904246" pitch="-3.1846636412083E-16" roll="-3.2636210281491309E-10">
+        <userData code="_template_attr_AttachedPoleObjectId" value="-1" />
+      </signal>
+      <signal s="1477.8489122070757" t="-8.74665960269589" id="28" name="Straight Arrow Paint" dynamic="no" orientation="none" zOffset="0.010000001775038441" country="CHN" type="Graphics" subtype="StraightAheadArrow" value="0" unit="m" height="0" width="3" length="3" text="" hOffset="0.00084284005856257284" pitch="-3.1692646804382537E-16" roll="-3.26359438280099E-10">
+        <userData code="_template_attr_AttachedPoleObjectId" value="-1" />
+      </signal>
+      <signal s="1859.3769290762089" t="-1.7521083269069313" id="29" name="Straight Arrow Paint" dynamic="no" orientation="none" zOffset="0.0099999992024374183" country="CHN" type="Graphics" subtype="StraightAheadArrow" value="0" unit="m" height="0" width="3" length="3" text="" hOffset="0.00045440570946672171" pitch="2.17081868101375E-14" roll="-3.6206167748151009E-11">
+        <userData code="_template_attr_AttachedPoleObjectId" value="-1" />
+      </signal>
+      <signal s="1859.3769290761627" t="-5.2518959801965455" id="30" name="Straight Arrow Paint" dynamic="no" orientation="none" zOffset="0.010000000240249201" country="CHN" type="Graphics" subtype="StraightAheadArrow" value="0" unit="m" height="0" width="3" length="3" text="" hOffset="0.00045440570946641575" pitch="2.1707416882123835E-14" roll="-3.6207500049277697E-11">
+        <userData code="_template_attr_AttachedPoleObjectId" value="-1" />
+      </signal>
+    </signals>
+  </road>
+</OpenDRIVE>
